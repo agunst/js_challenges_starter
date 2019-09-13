@@ -1,6 +1,17 @@
 (function () {
 
     document.write("hello from palindromes.js<br><br>");
+
+    var word, newWord;
+    word = "abcdedcba";
+
+    newWord = word.split("");
+    newWord = newWord.reverse();
+    newWord = newWord.join("");
+
+    console.log(word === newWord);
+    
+    /*
     function reverseString(str) {
         // Step 1. Use the split() method to return a new array
         var splitString = str.split(""); // var splitString = "hello".split("");
@@ -19,6 +30,6 @@
     }
 
     console.log(reverseString("hello"));
-
+    */
 
 })();
