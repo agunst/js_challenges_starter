@@ -1,11 +1,7 @@
 (function(){
 
-    //outputs string to the body of the document
-    //document.write("hello from coin-flip.js<br><br>");
+    document.write("hello from coin-flip.js<br><br>");
 
-    //outputs the string to the browsers console
-    console.log("hello from coin-flip.js");
-    
     let coinflipper = document.querySelector("#coinFlipper");
     
     coinflipper.addEventListener("click", function() {
